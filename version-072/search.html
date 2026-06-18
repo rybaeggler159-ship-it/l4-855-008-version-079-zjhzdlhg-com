@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-国产精选电影-精选影片片单-高清视频在线播放</title>
+  <meta name="description" content="国产精选电影搜索页，支持按关键词、分类、类型筛选影片并进入播放详情。">
+  <meta name="keywords" content="国产精选电影,精选影片片单,高清视频在线播放,国产电影,精选影片,电影片单">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/search-data.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="国产精选电影首页">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">国产精选电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="" href="index.html">首页</a>
+      <div class="nav-dropdown">
+        <a class="" href="categories.html">分类</a>
+        <div class="dropdown-panel">
+          <a href="categories/domestic-selection.html">国产热映</a><a href="categories/action-crime.html">动作犯罪</a><a href="categories/comedy-life.html">喜剧轻松</a><a href="categories/romance-fantasy.html">爱情奇幻</a><a href="categories/suspense-thriller.html">悬疑惊悚</a><a href="categories/wuxia-costume.html">武侠古装</a><a href="categories/animation-youth.html">动画青春</a><a href="categories/drama-art.html">剧情文艺</a><a href="categories/scifi-adventure.html">科幻冒险</a><a href="categories/asia-choice.html">日韩亚洲</a><a href="categories/world-cinema.html">欧美佳片</a><a href="categories/variety-documentary.html">纪录综艺</a>
+        </div>
+      </div>
+      <a class="" href="ranking.html">排行榜</a>
+      <a class=" is-active" href="search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get" role="search">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit" aria-label="提交搜索">⌕</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="展开菜单" aria-expanded="false" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-menu>
+    <form class="mobile-search" action="search.html" method="get" role="search">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <a href="index.html">首页</a>
+    <a href="categories.html">分类总览</a>
+    <a href="ranking.html">排行榜</a>
+    <a href="search.html">搜索页</a>
+    <div class="mobile-category-list">
+      <a href="categories/domestic-selection.html">国产热映</a><a href="categories/action-crime.html">动作犯罪</a><a href="categories/comedy-life.html">喜剧轻松</a><a href="categories/romance-fantasy.html">爱情奇幻</a><a href="categories/suspense-thriller.html">悬疑惊悚</a><a href="categories/wuxia-costume.html">武侠古装</a><a href="categories/animation-youth.html">动画青春</a><a href="categories/drama-art.html">剧情文艺</a>
+    </div>
+  </div>
+</header>
+<main data-search-page>
+  <section class="page-hero">
+    <div class="search-hero">
+      <span class="eyebrow">Search</span>
+      <h1>影片搜索</h1>
+      <p>输入片名、地区、类型、标签或简介关键词，即可在完整影片索引中筛选结果。</p>
+      <form class="search-controls" data-search-form>
+        <input type="search" placeholder="输入关键词，例如 动作、悬疑、香港" data-search-input aria-label="影片搜索关键词">
+        <select data-search-category aria-label="按分类筛选">
+          <option value="">全部分类</option>
+          <option value="domestic-selection">国产热映</option><option value="action-crime">动作犯罪</option><option value="comedy-life">喜剧轻松</option><option value="romance-fantasy">爱情奇幻</option><option value="suspense-thriller">悬疑惊悚</option><option value="wuxia-costume">武侠古装</option><option value="animation-youth">动画青春</option><option value="drama-art">剧情文艺</option><option value="scifi-adventure">科幻冒险</option><option value="asia-choice">日韩亚洲</option><option value="world-cinema">欧美佳片</option><option value="variety-documentary">纪录综艺</option>
+        </select>
+        <select data-search-type aria-label="按类型筛选">
+          <option value="">全部类型</option>
+          <option value="剧集">剧集</option><option value="动漫">动漫</option><option value="动画">动画</option><option value="电影">电影</option><option value="短剧">短剧</option><option value="综艺">综艺</option><option value="网剧">网剧</option><option value="OVA">OVA</option><option value="剧情片">剧情片</option><option value="动画片">动画片</option><option value="电视剧">电视剧</option><option value="纪录片">纪录片</option><option value="网络剧">网络剧</option><option value="TV剧集">TV剧集</option><option value="剧情电影">剧情电影</option><option value="动画剧集">动画剧集</option><option value="动画电影">动画电影</option><option value="喜剧电影">喜剧电影</option><option value="恐怖电影">恐怖电影</option><option value="战争电影">战争电影</option><option value="爱情电影">爱情电影</option><option value="电视剧集">电视剧集</option><option value="纪录特辑">纪录特辑</option><option value="网络动画">网络动画</option><option value="网络电影">网络电影</option><option value="Movie">Movie</option><option value="TV 剧集">TV 剧集</option><option value="剧集/综艺">剧集/综艺</option><option value="动画系列片">动画系列片</option><option value="历史剧情剧">历史剧情剧</option><option value="历史权谋片">历史权谋片</option><option value="古装悬疑剧">古装悬疑剧</option><option value="悬疑冒险片">悬疑冒险片</option><option value="悬疑电视剧">悬疑电视剧</option><option value="惊悚冒险片">惊悚冒险片</option><option value="惊悚悬疑片">惊悚悬疑片</option><option value="惊悚犯罪片">惊悚犯罪片</option><option value="玄幻史诗剧">玄幻史诗剧</option><option value="电影/动画">电影/动画</option><option value="电影配音版">电影配音版</option><option value="短片，电影">短片，电影</option><option value="科幻动作片">科幻动作片</option><option value="科幻惊悚片">科幻惊悚片</option><option value="脱口秀特辑">脱口秀特辑</option><option value="都市悬疑剧">都市悬疑剧</option><option value="都市爱情剧">都市爱情剧</option><option value="青春悬疑剧">青春悬疑剧</option><option value="剧情, 悬疑">剧情, 悬疑</option><option value="史诗科幻电影">史诗科幻电影</option><option value="奇幻冒险电影">奇幻冒险电影</option><option value="心理悬疑电影">心理悬疑电影</option><option value="恐怖悬疑电影">恐怖悬疑电影</option><option value="惊悚冒险电影">惊悚冒险电影</option><option value="战争动作电影">战争动作电影</option><option value="根据片名判断">根据片名判断</option><option value="武侠奇幻电影">武侠奇幻电影</option><option value="犯罪动作电影">犯罪动作电影</option><option value="犯罪惊悚电影">犯罪惊悚电影</option><option value="科幻, 青春">科幻, 青春</option><option value="科幻悬疑电影">科幻悬疑电影</option>
+        </select>
+        <button class="search-submit" type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="content-section compact">
+    <div class="section-heading">
+  <div>
+    <span class="section-kicker">精选片单</span>
+    <h2>搜索结果</h2>
+    <p>最多优先展示 240 条匹配影片，更多内容可继续缩小关键词。</p>
+  </div>
+  
+</div>
+    <p class="filter-summary">共匹配 <strong data-search-count>0</strong> 部影片</p>
+    <div class="movie-grid" data-search-results></div>
+    <div class="no-results" data-search-empty>未找到匹配影片，请换一个关键词。</div>
+  </section>
+  <section class="content-section compact">
+    <div class="section-heading">
+  <div>
+    <span class="section-kicker">精选片单</span>
+    <h2>热门入口</h2>
+    <p>无需搜索也可以直接浏览这些高热影片。</p>
+  </div>
+  <a class="section-link" href="ranking.html">排行榜 →</a>
+</div>
+    <div class="compact-grid">
+      <a class="compact-card" href="detail/movie-0942.html">
+  <img src="42.jpg" alt="色戒" loading="lazy">
+  <span>
+    <strong>色戒</strong>
+    <em>剧情、爱情 · 2027 (翻…</em>
+  </span>
+</a><a class="compact-card" href="detail/movie-1054.html">
+  <img src="4.jpg" alt="野性精神" loading="lazy">
+  <span>
+    <strong>野性精神</strong>
+    <em>动画，冒险，家庭 · 2026</em>
+  </span>
+</a><a class="compact-card" href="detail/movie-1008.html">
+  <img src="108.jpg" alt="侦探人生第三季" loading="lazy">
+  <span>
+    <strong>侦探人生第三季</strong>
+    <em>悬疑 / 喜剧 / 探案 · 2022</em>
+  </span>
+</a><a class="compact-card" href="detail/movie-1051.html">
+  <img src="1.jpg" alt="机械战士" loading="lazy">
+  <span>
+    <strong>机械战士</strong>
+    <em>科幻, 动作, 战争 · 2027</em>
+  </span>
+</a><a class="compact-card" href="detail/movie-0730.html">
+  <img src="130.jpg" alt="阿瓦提和阿凡提" loading="lazy">
+  <span>
+    <strong>阿瓦提和阿凡提</strong>
+    <em>冒险 / 家庭 / 奇幻 · 2022</em>
+  </span>
+</a><a class="compact-card" href="detail/movie-0466.html">
+  <img src="16.jpg" alt="苏东坡" loading="lazy">
+  <span>
+    <strong>苏东坡</strong>
+    <em>古装, 传记, 历史 · 2026</em>
+  </span>
+</a><a class="compact-card" href="detail/movie-1155.html">
+  <img src="105.jpg" alt="异形爆仓" loading="lazy">
+  <span>
+    <strong>异形爆仓</strong>
+    <em>科幻,恐怖,灾难,动作 · 2025</em>
+  </span>
+</a><a class="compact-card" href="detail/movie-0147.html">
+  <img src="147.jpg" alt="喜剧王中王·前任归来" loading="lazy">
+  <span>
+    <strong>喜剧王中王·前任归来</strong>
+    <em>喜剧 / 爱情 · 2024</em>
+  </span>
+</a><a class="compact-card" href="detail/movie-0996.html">
+  <img src="96.jpg" alt="辣手保姆" loading="lazy">
+  <span>
+    <strong>辣手保姆</strong>
+    <em>喜剧 / 恐怖 / 动作 · 2024</em>
+  </span>
+</a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <strong>国产精选电影</strong>
+      </div>
+      <p>汇总国产精选电影片单内容，按类型与热度整理，适合浏览不同题材影片。</p>
+    </div>
+    <div>
+      <h3>快速入口</h3>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="categories.html">分类总览</a></li>
+        <li><a href="ranking.html">排行榜</a></li>
+        <li><a href="search.html">影片搜索</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>片单分类</h3>
+      <ul>
+        <li><a href="categories/domestic-selection.html">国产热映</a></li><li><a href="categories/action-crime.html">动作犯罪</a></li><li><a href="categories/comedy-life.html">喜剧轻松</a></li><li><a href="categories/romance-fantasy.html">爱情奇幻</a></li><li><a href="categories/suspense-thriller.html">悬疑惊悚</a></li><li><a href="categories/wuxia-costume.html">武侠古装</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>热门关键词</h3>
+      <div class="footer-tags">
+        <span>国产电影</span>
+        <span>精选影片</span>
+        <span>高清播放</span>
+        <span>电影片单</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产精选电影. 精彩片单持续整理中。</div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
